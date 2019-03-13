@@ -1,15 +1,18 @@
 /* global $ */
 
 // BELOW Update the songs array with four of your favorites songs.
-var songs = ["Hello Mama Africa","Wine Slow","Beautiful Lady","Say It","Tempted To Touch","They Gonna Talk"];
-var artist=["Garnett Silk","Gyptian","Gyptian","Tory Lanez","Beres Hammond","Beres Hammond"];
-var songlengths = ["3:34","2:34","3:44","3:57","3:48","3:57"];
-var links =["https://www.youtube.com/watch?v=5_3AYURa3BU","https://www.youtube.com/watch?v=JFgxQi7w5YU","https://www.youtube.com/watch?v=M-lmi9ASWgI","https://www.youtube.com/watch?v=_zfALgPeOAE","https://www.youtube.com/watch?v=BKwDeddE1io","https://www.youtube.com/watch?v=i1d6Om0dimM"];
+var songs = ["Wine Slow","Beautiful Lady","Say It","Tempted To Touch","They Gonna Talk"];
+var artist=["Gyptian","Gyptian","Tory Lanez","Beres Hammond","Beres Hammond"];
+var songlengths = [,"2:34","3:44","3:57","3:48","3:57"];
+var links =[,,"https://www.youtube.com/watch?v=M-lmi9ASWgI","https://www.youtube.com/watch?v=_zfALgPeOAE","https://www.youtube.com/watch?v=BKwDeddE1io","https://www.youtube.com/watch?v=i1d6Om0dimM"];
 // BELOW Add 4 More arrays to store images_links, artists, song lengths, and links for each song
 // Make sure they match the same order as your array above
+var list = [
+    {name:"Garnett Silk" ,song:"Hello Mama Africa",time:"3:34",link:"https://www.youtube.com/watch?v=5_3AYURa3BU" },
+    {name:"Gyptian" ,song:"Wine Slow",time:"2:34",link:"https://www.youtube.com/watch?v=JFgxQi7w5YU"},
+    
 
-
-
+];
 function displaySongInfo(){
     songs.forEach(function(songs) {
         $("#songs").append("<p>"+ songs + "<p>");
